@@ -39,12 +39,12 @@ Website van het management Favor Talents
 #### Screenshot(s) van de eerste pagina (small screen):
 
 Homescreen
-<img src="readme-images/ScreenshotSmalleenScreen.png" width="375px" alt="omschrijving van de pagina">
+<img src="images/screenshotsmalleenscreen.png" width="375px" alt="omschrijving van de pagina">
 
 #### Screenshot(s) van de tweede pagina (small screen):
 
 Overzicht van acteurs
-<img src="readme-images/ScreenshotSmalltweeScreen.png" width="375px" alt="omschrijving van de pagina">
+<img src="images/screenshotsmalltweescreen.png" width="375px" alt="omschrijving van de pagina">
 
 </details>
 
