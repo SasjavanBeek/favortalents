@@ -22,7 +22,7 @@ blauw
 
 #### Je focus:
 
-responsive
+service plane
 
 </details>
 
@@ -90,15 +90,15 @@ Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldi
 
 ### de hele pagina:
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
+  <img src="images/bdshome.png" width="375px" alt="breakdown van de hele pagina">
 
 ### dynamisch deel (bijv menu):
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
+  <img src="images/menu.png" width="375px" alt="breakdown van een dynamisch deel">
 
 ### wellicht nog een dynamisch deel (bijv filter):
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
+  <img src="images/actors.png" width="375px" alt="breakdown van nog een dynamisch deel">
 
 </details>
 
