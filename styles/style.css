@@ -26,7 +26,7 @@ summary {
 /****************/
 
 /* jouw code */
- 
+
 /* $Id: text.css,v 1.1 2009/01/31 21:28:46 dvessel Exp $ */
 
 /*
@@ -42,7 +42,19 @@ summary {
 ----------------------------------------------------------------------------------------------------*/
 @font-face {
   font-family: aaux-next;
-  src: url();
+  src: url(font/aauxnextbdwebfont.otf);
+}
+@font-face {
+  font-family: aaux-next;
+  src: url(font/aauxnextblk.otf);
+}
+@font-face {
+  font-family: aaux-next;
+  src: url(font/aauxnextltwebfont.otf);
+}
+@font-face {
+  font-family: aaux-next;
+  src: url(font/aauxnextmdwebfont.otf);
 }
 
 body {
@@ -141,13 +153,18 @@ p {
   font-weight: 600;
 }
 
-.socials a img {
-  width: 32px;
-  height: 32px;
-  border-radius: 50%;
-  display: inline-block;
-  background-size: 20px 20px;
-  background-position: center center;
-  background-repeat: no-repeat;
-  text-indent: -9999px;
+ul li a {}
+
+ul li a h3 {
+  font-weight: 600;
+  line-height: 1;
+  opacity: 0.8;
+  text-align: center;
+  color: #000;
+  display: block;
+  font-size: 1em;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
 }

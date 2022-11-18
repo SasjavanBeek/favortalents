@@ -57,21 +57,45 @@ Overzicht van acteurs
 
 Lijst met je bevindingen die in de test naar voren kwamen:
 
+Tijdens het testen van de toegankelijkheid van de website: ‘https://www.favortalents.com/’ ben ik erachter gekomen dat deze website niet toegankelijk is voor mensen met een beperking.
+
 #### Screenreader
 
 Hier korte omschrijving (met indien nodig afbeeldingen)
 
+- De header wordt niet opgemerkt door de screenreader, zo weten blinde mensen dus niet dat er een logo, zoek-icon en hamburger menu staat.
+- De afbeeldingen bevatten geen alt-tekst en zo weten blinden dus niet dat er een afbeelding staat en wat er op deze afbeelding te zien is.
+- De linkjes in de unordered list bevatten ook geen alt-tekst. De screen reader laat blinden mensen dus alleen weten dat er een link is maar niet waar de gebruiker uit zal komen als hij of zij op de link klikt.
+- De paragrafen worden wel goed voorgelezen door de screenreader. Alle tekst is per zin in een paragraaf gezet.
+- De social media icons worden goed voorgelezen door de screenreader.
+
+---
+
+- De filteropties worden goed voorgelezen door de screenreader.
+  De linkjes met daarin een afbeelding en een h3 worden niet opgemerkt door de screenreader.
+
 Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+
+- Er moet altijd worden toegevoegd bij het logo, zoek-icon en hamburgermenu en ook bij de afbeeldingen en linkjes.
+- Er moet per link worden aangegeven wat er op de afbeelding is te zien en welke tekst er onder de afbeelding staat zodat de gebruiker weet waar hij of zij naartoe gaat als hij of zij op de link klikt.
 
 #### Muis en Toetsenbord
 
 Hier korte omschrijving (met indien nodig afbeeldingen)
 
+- Alles is met de muis te navigeren.
+- De website is niet toegankelijk voor toetsenborden, er gebeurt simpelweg niet als er op de tab wordt gedrukt.
+- Ook zijn er geen steeds uitgewerkt.
+
 Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+
+- Een oplossing hiervoor zou zijn om alles netjes semantisch precies te labelen en te nesten.
 
 #### Motoriek (shocks, elastiekjes)
 
 Hier korte omschrijving (met indien nodig afbeeldingen)
+
+- De vlak verdeling op de website is groot en dit maakt het toegankelijk voor mensen met een beperking in hun motoriek. als er bijvoorbeeld makkelijk uitschieten is het vlak zo groot dat en klik verder op In het scherm dezelfde functie heeft.
 
 Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
 
@@ -79,7 +103,13 @@ Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldi
 
 Hier korte omschrijving (met indien nodig afbeeldingen)
 
+- De site is niet goed te lezen in hoog contrast.
+- De site bevat geen dark modus.
+- Dus bevat geen kleurenblind opties.
+
 Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+
+- Dit kan worden opgelost door een visueel beperkt toegankelijke website bouwen. een goed begin is om een dark-modus versie uit te werken.
 
 </details>
 
