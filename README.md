@@ -124,11 +124,11 @@ Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldi
 
 ### dynamisch deel (bijv menu):
 
-  <img src="images/menu.png" width="375px" alt="breakdown van een dynamisch deel">
+  <img src="images/bdsmenu.png" width="375px" alt="breakdown van een dynamisch deel">
 
 ### wellicht nog een dynamisch deel (bijv filter):
 
-  <img src="images/actors.png" width="375px" alt="breakdown van nog een dynamisch deel">
+  <img src="images/bdsactors.png" width="375px" alt="breakdown van nog een dynamisch deel">
 
 </details>
 
@@ -139,6 +139,7 @@ Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldi
 
 ### Stand van zaken
 
+css progress, 2 css? javascript nog vragen
 hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
 
 ### Agenda voor meeting
@@ -165,7 +166,7 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 ## Voortgang 2 (week 3)
 
 <details>
-  <summary>uitwerken voor 2e voortgang</summary>
+  <summary>geen 2 css dus samenvoegen, hamburger menu stylen en werkend maken, afbeeldingen in proces verslag checken op mappen structuur, javascript diashow</summary>
 
 ### Stand van zaken
 

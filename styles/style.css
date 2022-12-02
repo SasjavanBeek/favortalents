@@ -1,6 +1,3 @@
-/**************/
-/* CSS REMEDY */
-/**************/
 *,
 *::after,
 *::before {
@@ -16,9 +13,6 @@ summary {
   cursor: pointer;
 }
 
-/*********************/
-/* CUSTOM PROPERTIES */
-/*********************/
 :root {
   /* startje */
   --color-text: #111;
@@ -26,98 +20,74 @@ summary {
 }
 
 /****************/
-/* JOUW STYLING */
+/* MIJN STYLING */
 /****************/
 
-/* jouw code */
-
+/* FONTS */
+@font-face {
+  font-family: aaux-next;
+  src: url(../font/light.otf);
+  font-weight: 100;
+}
+@font-face {
+  font-family: aaux-next;
+  src: url(../font/normal.otf);
+  font-weight: 200;
+}
+@font-face {
+  font-family: aaux-next;
+  src: url(../font/medium.otf);
+  font-weight: 300;
+}
+@font-face {
+  font-family: aaux-next;
+  src: url(../font/bold.otf);
+  font-weight: 400;
+}
+/* END FONTS */
 /* TEXT */
-/* $Id: text.css,v 1.1 2009/01/31 21:28:46 dvessel Exp $ */
-
-/*
-  960 Grid System ~ Text CSS.
-  Learn more ~ http://960.gs/
-
-  Licensed under GPL and MIT.
-
-  Modifide for Drupal.
-*/
-
-/* `Basic HTML
-----------------------------------------------------------------------------------------------------*/
-@font-face {
-  font-family: aaux-next;
-  src: url(font/aauxnextbdwebfont.otf);
-}
-@font-face {
-  font-family: aaux-next;
-  src: url(font/aauxnextblk.otf);
-}
-@font-face {
-  font-family: aaux-next;
-  src: url(font/aauxnextltwebfont.otf);
-}
-@font-face {
-  font-family: aaux-next;
-  src: url(font/aauxnextmdwebfont.otf);
-}
-
 body {
   font-family: "aaux-next", sans-serif;
-  font-size: 16px;
+  font-size: 1em;
   line-height: 1.5;
   color: #333;
-  font-weight: 600;
+  font-weight: 100;
   width: 100vw;
 }
 
-/* `Headings
-  ----------------------------------------------------------------------------------------------------*/
-
 h1 {
-  font-size: 40px;
+  font-size: 2.5em;
   font-weight: 300;
   line-height: 1;
+  margin-bottom: 30px;
+  visibility: hidden;
 }
 
 h2 {
-  font-size: 36px;
+  font-size: 2.25em;
   font-weight: 300;
   line-height: 1;
 }
 
 h3 {
-  font-size: 24px;
-  font-weight: 600;
+  font-size: 1.4375em;
   margin: 0;
   line-height: 1;
 }
 
-h4 {
-  font-size: 19px;
-}
-
-h5 {
-  font-size: 17px;
-}
-
-h6 {
-  font-size: 15px;
-}
-
-/* `Spacing
-  ----------------------------------------------------------------------------------------------------*/
-
-h1 {
-  margin-bottom: 30px;
-}
-
 a {
-  text-decoration: underline;
+  text-decoration: none;
   color: #333;
 }
-
-/* TEXT */
+p {
+  font-family: "aaux-next", sans-serif;
+  font-size: 1.2em;
+  line-height: 1.5;
+  color: #333;
+  font-weight: 200;
+}
+/* END TEXT */
+/* HEADER */
 header {
   position: sticky;
   top: 0;
@@ -125,63 +95,188 @@ header {
   width: 100%;
   z-index: 100;
 }
-
 header nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 1em;
 }
+/* zoekicon */
 header nav div i:first-of-type {
   margin-right: 0.2em;
+  color: rgb(183, 183, 183);
+}
+/* menuicon */
+header nav div i:nth-of-type(2) {
+  color: rgb(74, 74, 74);
 }
 /* logo */
-header nav img {
-  height: 75px;
+header nav a img {
+  height: 4.6875em;
 }
+/* hamburgermenu */
+.hamburger {
+  position: absolute;
+  width: 50vw;
+  height: 100vh;
+  background-image: -webkit-linear-gradient(bottom, #9159b0 -40%, #4361a8 100%);
+  right: 0;
+  top: 0;
+}
+.hamburger ul li a {
+  color: #fff;
+  width: 100%;
+  text-decoration: none;
+  text-transform: uppercase;
+  display: block;
+  text-align: right;
+  font-weight: 200;
+  padding: 15px 10px;
+}
+/* icons in hamburgermenu */
+.hamsocials {
+  position: absolute;
+  bottom: 50px;
+  font-size: 1.3em;
+  margin-left: 3em;
+}
+.hamsocials i {
+  color: #fff;
+  width: 32px;
+}
+/* END HEADER */
+/* MAIN */
 main {
   width: 100%;
   padding: 1em;
 }
-
-p {
-  font-family: "aaux-next", sans-serif;
-  font-size: 16px;
-  line-height: 1.5;
-  color: #333;
-  font-weight: 600;
+/* HOMEPAGE */
+.homemain section p:first-of-type {
+  font-size: 1.3em;
+  margin-top: 2em;
+  margin-bottom: 1em;
+  font-weight: 200;
 }
-
-main ul {
+.homemain ul {
   padding: 0.5em;
   list-style: none;
 }
-/* actors etc */
-main ul li:not(li:first-of-type) {
+.homemain section {
+  margin-left: 1em;
+  margin-right: 1em;
+}
+/* list van actors etc */
+.homemain ul li:not(li:first-of-type) {
   margin-top: 0.5em;
-  background-color: #666;
-  height: 15.625em;
+  background-color: rgb(235, 235, 235);
+  height: 14.625em;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-main ul li img {
+.homemain ul li img {
   width: 100%;
   height: 15.625em;
   object-fit: cover;
 }
 
-ul li a h3 {
-  font-weight: 600;
+.homemain ul li a h3 {
+  font-weight: 300;
   line-height: 1;
   opacity: 0.8;
   text-align: center;
   color: #000;
   display: block;
-  font-size: 1em;
+  font-size: 1.5em;
   margin-block-start: 1em;
   margin-block-end: 1em;
   margin-inline-start: 0px;
   margin-inline-end: 0px;
 }
+/* END HOMEPAGE */
+/* ACTORSPAGE */
+
+.actorsmain {
+  padding: 1em;
+  width: 100%;
+}
+/* title actors */
+.actorsmain h2 {
+  color: #6f2f92;
+  text-align: center;
+}
+.actorsmain ul {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1em;
+  margin-bottom: 5em;
+}
+.actorsmain select {
+  border: 0;
+  border-bottom: 3px solid #6f2f92;
+  height: 3em;
+  width: 16em;
+  margin-left: calc(50% - 8em);
+  margin-top: 3em;
+  margin-bottom: 3em;
+
+  font-family: "aaux-next", sans-serif;
+  font-weight: 200;
+  font-size: 1.2em;
+  color: #333;
+}
+/* foto's hover kleur */
+.actorsmain img {
+  width: 100%;
+  filter: grayscale(100%);
+  transition: 75s;
+}
+
+.actorsmain img:hover {
+  filter: none;
+  transition: 0.75s;
+}
+
+.actorsmain ul li {
+  list-style: none;
+  text-align: center;
+}
+
+/* actors naam */
+.actorsmain ul li a h3 {
+  font-weight: 200;
+  min-height: 50px;
+  font-size: 1em;
+  padding: 10px 0 0 0;
+  width: 100%;
+}
+.actorsfooter h3 {
+  font-size: 1em;
+  text-transform: uppercase;
+  font-weight: 200;
+}
+
+.actorsfooter p {
+  font-size: 0.8em;
+  margin: 3em;
+  margin-top: 1em;
+  font-weight: 200;
+}
+/* END ACTORSPAGE */
+/* FOOTER */
+footer {
+  padding: 1em;
+  width: 100%;
+  text-align: center;
+}
+/* grootte icons */
+footer section.socials a i {
+  font-size: 1.3em;
+}
+
+footer section a i {
+  margin: 0.6em;
+}
+/* END FOOTER */

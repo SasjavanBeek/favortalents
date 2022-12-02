@@ -56,7 +56,6 @@ h2 {
   font-size: 36px;
   font-weight: 300;
   line-height: 1;
-  
 }
 
 h3 {
@@ -117,11 +116,11 @@ header nav div i:first-of-type {
 header nav img {
   height: 75px;
 }
-main {
+.actorsmain {
   padding: 1em;
   width: 100%;
 }
-main ul {
+.actorsmain ul {
   width: 100%;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -129,26 +128,27 @@ main ul {
   margin-bottom: 5em;
 }
 
-main img {
+.actorsmain img {
   width: 100%;
   filter: grayscale(100%);
   transition: 75s;
 }
 
-main img:hover {
+.actorsmain img:hover {
   filter: none;
   transition: 0.75s;
 }
 
-main ul li {
+.actorsmain ul li {
   list-style: none;
   text-align: center;
 }
+
 a {
   text-decoration: none;
 }
 
-footer {
+.actorsfooter {
   padding: 1em;
   width: 100%;
   text-align: center;
