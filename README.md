@@ -192,13 +192,14 @@ In de laatste week ben ik bezig gegaan met het uitwerken van mijn microinteracti
 
 ### Je uitkomst - karakteristiek screenshots:
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="uitomst opdracht 1">
+<img src="images/done.png" width="375px" alt="nagemaakte homepagina">
+<img src="images/done2.png" width="375px" alt="nagemaakte homepagina">
 
 ### Dit ging goed/Heb ik geleerd:
 
 Aan dit vak heb ik veel gehad zodat ik mijn kennis van HTML CSS en Javascript weer heb opgefrist. Ik herinnerde me meer dan ik dacht en hier ben ik trots op. Door het namaken van een bestaande website leer je open andere manier naar website kijken. Het zijn semantisch herschrijven van de website is erg leerzaam geweest. Ik werd altijd een beetje bang van code maar ik ben blij dat ik een website heb gekozen die voor mij haalbaar was om na te maken.
 
-<img src="images/done.png" width="375px" alt="omschrijving van de pagina">
+
 
 ### Dit was lastig/Is niet gelukt:
 
