@@ -27,7 +27,6 @@ Surface Plane:
 - Dark/Light mode
 - Prefers-reduced-motion
 - Advanced positioning: sticky, fixed, z-index…
-- Toegankelijkheid++
 - Drop-down menu
 
 </details>
@@ -187,7 +186,7 @@ In de laatste week ben ik bezig gegaan met het uitwerken van mijn microinteracti
 </details>
 
 ## Eindgesprek (week 5)
-
+ 
 <details>
 
 ### Je uitkomst - karakteristiek screenshots:
